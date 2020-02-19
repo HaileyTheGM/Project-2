@@ -1,0 +1,97 @@
+body {
+	font-family: 'Merriweather', serif;
+	background-image:  url(starrysky.jpg); 
+}
+		
+
+	h1 {
+			color: #FFCE19;
+			text-align:left;
+			font-size:35px;
+			font-family: 'Merriweather', serif;
+			
+	}
+
+		p {
+			line-height: 1.4em;
+			color: white;
+			font-size: 15px;
+			font-family: 'Merriweather', serif;
+			margin-right: 30px;
+		}
+	
+	ul {
+	color: white;
+	font-size: 15px;
+	}
+	
+	h2 { 
+		color: #FFFFA0;
+		
+	}
+	
+.one {  
+	color: #FFFFA0;
+	font-size: 15px;
+	text-indent: 25px;
+	}
+
+.two {
+	color: white;
+	font-size: 15px;
+	text-indent: 0px;
+}
+	a {
+		color: #96CFEA;
+		line-height: 1.4em;
+		font-size: 22px;
+		font-family: 'Merriweather', serif;
+	}
+	
+	
+	img { 
+	text-align: center;
+	}
+	
+	div {
+	background-color: black;	
+	width: 600px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px solid black; 
+	box-shadow: 0px 0px 100px #FFFFA0;
+	padding: 50px 20px 50px 50px;
+}
+
+
+
+.vignette-inset {
+  position: relative;
+  height: 400px;
+  display: block;
+  background-image: url('starrysky.jpg');
+  background-size: cover;
+}
+
+.vignette-inset:after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  box-shadow: inset 0px 0px 150px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
